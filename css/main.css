@@ -44,6 +44,7 @@ article{
 	border:3px double black;
 	margin:2%;
 	background-color:#3ECEF3;
+	text-align:center;
 }
 
 div{
@@ -52,6 +53,7 @@ div{
 	color:white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	cursor:pointer;
+	visibility:hidden;
 }
 
 .fila1{
@@ -66,6 +68,10 @@ div{
 	margin-right:3%;
 	background-color:#BB98FF;
 	float:left;
+}
+
+#pregunta{
+	margin-top:10%;
 }
 
 .fila2{

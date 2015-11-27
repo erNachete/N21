@@ -1,6 +1,13 @@
+var horaactual;
+
+function hora(){
+	var d = new Date();
+	horaactual = d.getHours();
+}
 
 function darclick(){
-	for(var i=0;i<$("div").length;i++){
+	for(var i=0;i<=horaactual;i++){
+		$("#lvl"+i).css("visibility","visible");
 		$("#lvl"+i).click(abrir);
 	}
 }
@@ -24,5 +31,6 @@ function abrir(){
 }
 
 window.onload = function(){
+	hora();
 	darclick();
 }
