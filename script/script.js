@@ -17,8 +17,6 @@ function abrir(){
 	var codigo = parseInt((this.id).replace( /^\D+/g, ''));
 	var respuesta;
 	
-	alert(codigo);
-	
 	contrasena=contrasena.toLowerCase();
 	
 	switch(codigo){
@@ -33,6 +31,7 @@ function abrir(){
 	
 	for(var i=0;i<$("#lvl"+codigo).length;i++){
 		if(contrasena==respuesta){
+				alert(codigo);
 			window.open(this.id+".html",'_system');
 		}else{
 			alert("Listillaaaaa, sigue las instruccioens :P");
