@@ -10,6 +10,11 @@ function darclick(){
 		$("#lvl"+i).css("visibility","visible");
 		$("#lvl"+i).click(abrir);
 	}
+	if(horaactual==23){
+		$("#lvl24").css("visibility","visible");
+	}else{
+		$("#lvl24").css("visibility","hidden");
+	}
 }
 
 function abrir(){
