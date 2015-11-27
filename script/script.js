@@ -5,7 +5,7 @@ function darclick(){
 }
 
 function abrir(){
-	window.open(this.id+".html");
+	window.open(this.id+".html",'_system');
 }
 
 window.onload = function(){
