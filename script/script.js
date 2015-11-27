@@ -31,7 +31,6 @@ function abrir(){
 	
 	for(var i=0;i<$("#lvl"+codigo).length;i++){
 		if(contrasena==respuesta){
-				alert(codigo);
 			window.open(this.id+".html",'_system');
 		}else{
 			alert("Listillaaaaa, sigue las instruccioens :P");
