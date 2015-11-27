@@ -41,6 +41,12 @@ function abrir(){
 		case 15:respuesta="friends";break;
 		case 16:respuesta="marauri";break;
 		case 17:respuesta="gabon";break;
+		case 18:respuesta="ilazki";break;
+		case 19:respuesta="ñoñis";break;
+		case 20:respuesta="curro";break;
+		case 21:respuesta="mad mansion";break;
+		case 22:respuesta="tarta";break;
+		case 23:respuesta="sensual";break;
 	}
 	
 	for(var i=0;i<$("#lvl"+codigo).length;i++){
