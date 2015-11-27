@@ -9,11 +9,11 @@ function darclick(){
 	for(var i=0;i<=horaactual;i++){
 		$("#lvl"+i).css("visibility","visible");
 		$("#lvl"+i).click(abrir);
-		if($("#lvl23:visible")){
-			$("#lvl24").css("visibility","visible");
-		}else{
-			$("#lvl24").css("visibility","hidden");
-		}
+	}
+	if($("#lvl23:visible")){
+		$("#lvl24").css("visibility","visible");
+	}else{
+		$("#lvl24").css("visibility","hidden");
 	}
 }
 
