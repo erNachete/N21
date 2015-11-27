@@ -3,7 +3,7 @@ function clicar(){
 }
 
 function confirmar(){
-	var confirmar=confirm("Hola soy curro! esa es la proxima, curro.\n Dale a aceptar para continuar.");
+	var confirmar=confirm("Hola soy curro! pregunta por la proxima.\n Dale a aceptar para continuar.");
 	if(confirmar){
 		window.open("index.html",'_system');
 	}else{
