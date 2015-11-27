@@ -2,7 +2,7 @@ var horaactual;
 
 function hora(){
 	var d = new Date();
-	horaactual = d.getHours();
+	horaactual = parseInt(d.getHours());
 }
 
 function darclick(){
@@ -18,11 +18,12 @@ function abrir(){
 	var respuesta;
 	
 	switch(codigo){
-		case 0: resepuesta="21";break;
+		case 0: respuesta="21";break;
+		case 1: respuesta="11";break;
 	}
 	
 	for(var i=0;i<$("#lvl"+codigo).length;i++){
-		if(contrasena==resepuesta){
+		if(contrasena==respuesta){
 			window.open(this.id+".html",'_system');
 		}else{
 			alert("Listillaaaaa, sigue las instruccioens :P");
