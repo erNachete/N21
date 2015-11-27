@@ -27,6 +27,7 @@ function abrir(){
 		case 4: respuesta="martin";break;
 		case 5: respuesta="3";break;
 		case 6: respuesta="italia";break;
+		case 7: respuesta="7";break;
 	}
 	
 	for(var i=0;i<$("#lvl"+codigo).length;i++){
