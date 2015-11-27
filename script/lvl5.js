@@ -3,7 +3,7 @@ function clicar(){
 }
 
 function confirmar(){
-	var confirmar=confirm("perfecto! Asi me gusta! Dale a aceptar para continuar y espera a que iñaki te diga la contraseña por whats.\n Dale a aceptar para continuar.");
+	var confirmar=confirm("perfecto! Asi me gusta! La proxima contraseña es el nombre de un pais al que has ido mientras ya habia alguna compañera tuya alli tambien.\n Dale a aceptar para continuar.");
 	if(confirmar){
 		window.open("index.html",'_system');
 	}else{
