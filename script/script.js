@@ -11,6 +11,8 @@ function darclick(){
 		$("#lvl"+i).click(abrir);
 		if($("#lvl23:visible")){
 			$("#lvl24").css("visibility","visible");
+		}else{
+			$("#lvl24").css("visibility","hidden");
 		}
 	}
 }
