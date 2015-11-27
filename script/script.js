@@ -17,6 +17,8 @@ function abrir(){
 	var codigo = parseInt((this.id).replace( /^\D+/g, ''));
 	var respuesta;
 	
+	alert(codigo);
+	
 	contrasena=contrasena.toLowerCase();
 	
 	switch(codigo){
