@@ -17,9 +17,14 @@ function abrir(){
 	var codigo = parseInt((this.id).replace( /^\D+/g, ''));
 	var respuesta;
 	
+	contrasena=contrasena.toLowerCase();
+	
 	switch(codigo){
 		case 0: respuesta="21";break;
 		case 1: respuesta="11";break;
+		case 2: respuesta="udane";break;
+		case 3: respuesta="22";break;
+		case 4: respuesta="martin";break;
 	}
 	
 	for(var i=0;i<$("#lvl"+codigo).length;i++){

@@ -70,8 +70,10 @@ div{
 	float:left;
 }
 
-#pregunta{
+.pregunta{
 	margin-top:10%;
+	margin-left:0;
+	margin-right:0;
 }
 
 .fila2{
