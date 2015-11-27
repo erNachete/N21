@@ -30,6 +30,8 @@ function abrir(){
 		case 7: respuesta="7";break;
 		case 8: respuesta="mz";break;
 		case 9: respuesta="david tennant";break;
+		case 10:respuesta="chococrispi";break;
+		case 11:respuesta="marcos";break;
 	}
 	
 	for(var i=0;i<$("#lvl"+codigo).length;i++){
