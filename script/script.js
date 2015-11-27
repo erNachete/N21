@@ -10,11 +10,6 @@ function darclick(){
 		$("#lvl"+i).css("visibility","visible");
 		$("#lvl"+i).click(abrir);
 	}
-	if($("#lvl23:visible")){
-		$("#lvl24").css("visibility","visible");
-	}else{
-		$("#lvl24").css("visibility","hidden");
-	}
 }
 
 function abrir(){
@@ -48,7 +43,7 @@ function abrir(){
 		case 20:respuesta="curro";break;
 		case 21:respuesta="mad mansion";break;
 		case 22:respuesta="tarta";break;
-		case 23:respuesta="sensual";break;
+		case 23:respuesta="sensual";$("#lvl24").css("visibility","hidden");break;
 		case 24:respuesta="hot";break;
 	}
 	
