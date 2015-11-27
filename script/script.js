@@ -47,6 +47,7 @@ function abrir(){
 		case 21:respuesta="mad mansion";break;
 		case 22:respuesta="tarta";break;
 		case 23:respuesta="sensual";break;
+		case 24:respuesta="hot";break;
 	}
 	
 	for(var i=0;i<$("#lvl"+codigo).length;i++){
