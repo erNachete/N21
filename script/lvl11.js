@@ -3,6 +3,7 @@ var contador=0;
 function clicar(){
 	$("#aceptar").click(confirmar);
 	$("#cancelar").click(cancelar);
+	$("#cancelar2").click(cancelar);
 }
 
 function cancelar(){
