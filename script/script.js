@@ -28,6 +28,8 @@ function abrir(){
 		case 5: respuesta="3";break;
 		case 6: respuesta="italia";break;
 		case 7: respuesta="7";break;
+		case 8: respuesta="mz";break;
+		case 9: respuesta="david tennant";break;
 	}
 	
 	for(var i=0;i<$("#lvl"+codigo).length;i++){
