@@ -9,7 +9,7 @@ function confirmar(){
 	adivinanza=adivinanza.toLowerCase();
 	if(contador==0){
 		if(adivinanza=="10"){
-			$("#pregunta").html("Que nota crees tu que vas a savar?");
+			$("#pregunta").html("Que nota crees tu que vas a sacar?");
 			contador++;
 		}else{
 			alert("uoooooo, sabes que iñaki es mas optimista! vuelve a intentarlo");
