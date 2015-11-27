@@ -40,7 +40,7 @@ function abrir(){
 		case 17:respuesta="gabon";break;
 		case 18:respuesta="ilazki";break;
 		case 19:respuesta="ñoñis";break;
-		case 20:respuesta="curro";$("#lvl15").css("visibility","hidden");break;break;
+		case 20:respuesta="curro";$("#lvl15").css("visibility","hidden");break;
 		case 21:respuesta="mad mansion";break;
 		case 22:respuesta="tarta";break;
 		case 23:respuesta="sensual";$("#lvl24").css("visibility","visible");break;
