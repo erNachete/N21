@@ -26,7 +26,7 @@ function abrir(){
 		case 3: respuesta="22";break;
 		case 4: respuesta="martin";break;
 		case 5: respuesta="3";break;
-		case 6: respuesta="italia";break;
+		case 6: respuesta="2";break;
 		case 7: respuesta="7";break;
 		case 8: respuesta="mz";break;
 		case 9: respuesta="david tennant";break;
@@ -34,6 +34,10 @@ function abrir(){
 		case 11:respuesta="marcos";break;
 		case 12:respuesta="4";break;
 		case 13:respuesta="1";break;
+		case 14:respuesta="italia";break;
+		case 15:respuesta="friends";break;
+		case 16:respuesta="marauri";break;
+		case 17:respuesta="gabon";break;
 	}
 	
 	for(var i=0;i<$("#lvl"+codigo).length;i++){
