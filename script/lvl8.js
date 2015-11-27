@@ -23,7 +23,7 @@ function confirmar(){
 		}
 	}else if(contador==2){
 		if(adivinanza=="10"){
-			var confirmar=confirm("perfecto! Asi me gusta! La contraseña para el proximo nivel es el nombre del 10 doctor en doctor who.\n Dale a aceptar para continuar.");
+			var confirmar=confirm("perfecto! Asi me gusta! La contraseña para el proximo nivel es el nombre del actor del 10º doctor en doctor who.\n Dale a aceptar para continuar.");
 			if(confirmar){
 				window.open("index.html",'_system');
 			}
