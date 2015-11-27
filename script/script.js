@@ -25,6 +25,7 @@ function abrir(){
 		case 2: respuesta="udane";break;
 		case 3: respuesta="22";break;
 		case 4: respuesta="martin";break;
+		case 5: respuesta="3";break;
 	}
 	
 	for(var i=0;i<$("#lvl"+codigo).length;i++){
