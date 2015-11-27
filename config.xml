@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "0.0.1" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>N21</name>
+
+    <description>
+        juego cumple
+    </description>
+
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+        GDPafk
+    </author>
+
+	
+	<preference name="permissions" value="none" />
+	
+	<icon src="ldpi.png" platform="android" qualifier="ldpi" />
+	<icon src="mdpi.png" platform="android" qualifier="mdpi" />
+	<icon src="hdpi.png" platform="android" qualifier="hdpi" />
+	<icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
+	<icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
+	<icon src="fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
+
+</widget>
