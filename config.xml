@@ -17,6 +17,12 @@
         GDPafk
     </author>
 
+	<icon src="https://40.media.tumblr.com/c79a3c4d8e19a22301c15e8fe4ca0b54/tumblr_nyhm0iOTHb1r95e8ao1_250.png" platform="android" qualifier="ldpi" />
+	<icon src="https://40.media.tumblr.com/c79a3c4d8e19a22301c15e8fe4ca0b54/tumblr_nyhm0iOTHb1r95e8ao1_250.png" platform="android" qualifier="mdpi" />
+	<icon src="https://40.media.tumblr.com/c79a3c4d8e19a22301c15e8fe4ca0b54/tumblr_nyhm0iOTHb1r95e8ao1_250.png" platform="android" qualifier="hdpi" />
+	<icon src="https://40.media.tumblr.com/c79a3c4d8e19a22301c15e8fe4ca0b54/tumblr_nyhm0iOTHb1r95e8ao1_250.png" platform="android" qualifier="xhdpi" />
+	<icon src="https://40.media.tumblr.com/c79a3c4d8e19a22301c15e8fe4ca0b54/tumblr_nyhm0iOTHb1r95e8ao1_250.png" platform="android" qualifier="xxhdpi" />
+	<icon src="https://40.media.tumblr.com/c79a3c4d8e19a22301c15e8fe4ca0b54/tumblr_nyhm0iOTHb1r95e8ao1_250.png" platform="android" qualifier="fr-xxhdpi" />
 	
 	<preference name="permissions" value="none" />
 </widget>
