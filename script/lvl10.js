@@ -11,7 +11,7 @@ function confirmar(){
 			window.open("index.html",'_system');
 		}
 	}else{
-		alert("uoooooo, vuelve a intentarlo");
+		alert("en serio?");
 	}
 }
 
