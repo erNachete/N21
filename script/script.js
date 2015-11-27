@@ -32,6 +32,8 @@ function abrir(){
 		case 9: respuesta="david tennant";break;
 		case 10:respuesta="chococrispi";break;
 		case 11:respuesta="marcos";break;
+		case 12:respuesta="4";break;
+		case 13:respuesta="1";break;
 	}
 	
 	for(var i=0;i<$("#lvl"+codigo).length;i++){
