@@ -138,8 +138,7 @@ footer{
 	text-align:center;
 }
 
-
-
-
-
-
+#fin{
+	background-image:url("../img/fin.jpg");
+	background-size: 100% 100%;
+}
