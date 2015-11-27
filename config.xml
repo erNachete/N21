@@ -18,4 +18,11 @@
     </author>
 
 	<preference name="permissions" value="none" />
+	
+	<icon src="img/ldpi.png" platform="android" qualifier="ldpi" />
+	<icon src="img/mdpi.png" platform="android" qualifier="mdpi" />
+	<icon src="img/hdpi.png" platform="android" qualifier="hdpi" />
+	<icon src="img/xhdpi.png" platform="android" qualifier="xhdpi" />
+	<icon src="img/xxhdpi.png" platform="android" qualifier="xxhdpi" />
+	<icon src="img/fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
 </widget>
